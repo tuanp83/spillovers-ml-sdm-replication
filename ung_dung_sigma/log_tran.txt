@@ -1,0 +1,5 @@
+n=400 nL=40 beta=0.1 sqrt(n)|b|=2 {'far_old': 0.734, 'far_new': 0.139, 'far2_new': 0.14, 'size_new': 0.028, 'far_cap': 0.727, 'far2_cap': 0.668, 'size_cap': 0.028, 'size_old': 0.023}
+n=400 nL=40 beta=0.3 sqrt(n)|b|=6 {'far_old': 0.44, 'far_new': 0.139, 'far2_new': 0.127, 'size_new': 0.042, 'far_cap': 0.438, 'far2_cap': 0.343, 'size_cap': 0.042, 'size_old': 0.028}
+n=400 nL=40 beta=1.0 sqrt(n)|b|=20 {'far_old': 0.255, 'far_new': 0.175, 'far2_new': 0.137, 'size_new': 0.057, 'far_cap': 0.252, 'far2_cap': 0.137, 'size_cap': 0.057, 'size_old': 0.032}
+n=900 nL=90 beta=0.3 sqrt(n)|b|=9 {'far_old': 0.501, 'far_new': 0.178, 'far2_new': 0.161, 'size_new': 0.042, 'far_cap': 0.501, 'far2_cap': 0.395, 'size_cap': 0.042, 'size_old': 0.021}
+XONG

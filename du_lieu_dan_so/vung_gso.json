@@ -1,0 +1,35 @@
+{
+ "goc": {
+  "GHSL": {
+   "theta_star": -0.027,
+   "kappa": 0.95
+  },
+  "CAMS": {
+   "theta_star": 0.858,
+   "kappa": 0.413
+  },
+  "nhoe_Px": {
+   "theta_star": 0.662,
+   "kappa": 0.589
+  }
+ },
+ "chuan_hoa_GSO": {
+  "GHSL": {
+   "theta_star": -0.027,
+   "kappa": 0.95
+  },
+  "CAMS": {
+   "theta_star": 0.844,
+   "kappa": 0.411
+  },
+  "nhoe_Px": {
+   "theta_star": 0.66,
+   "kappa": 0.585
+  }
+ },
+ "tuong_quan_x": 0.999612956032387,
+ "he_so_tinh": {
+  "min": 0.830884253112218,
+  "max": 1.1817482315818622
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "GHSL_D0": {
+  "R": 1000,
+  "secs": 19,
+  "ht_design": {
+   "theta_medbias": -0.016290063741102756,
+   "theta_meanbias": -0.002418846345077552,
+   "theta_mad": 0.1518860754484166,
+   "theta_sd": 0.22071583233803851,
+   "size_chi2": 0.045,
+   "size_hotelling": 0.043,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.052,
+    0.046,
+    0.047,
+    0.045
+   ],
+   "EV_over_Var": [
+    0.945,
+    0.948,
+    0.954,
+    0.962
+   ]
+  }
+ },
+ "GHSL_D1": {
+  "R": 1000,
+  "secs": 41,
+  "naive": {
+   "theta_medbias": 0.05861289361951094,
+   "theta_meanbias": 0.06365191946692883,
+   "theta_mad": 0.16376857372299725,
+   "theta_sd": 0.23116364976934003,
+   "size_chi2": 0.047,
+   "size_hotelling": 0.039,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.043,
+    0.106,
+    0.126,
+    0.155
+   ],
+   "EV_over_Var": [
+    1.121,
+    1.133,
+    1.135,
+    1.141
+   ]
+  },
+  "ht_design": {
+   "theta_medbias": -0.012070697781517481,
+   "theta_meanbias": -0.0032335921689715663,
+   "theta_mad": 0.1827200899610375,
+   "theta_sd": 0.25286494668974546,
+   "size_chi2": 0.048,
+   "size_hotelling": 0.047,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.036,
+    0.046,
+    0.043,
+    0.046
+   ],
+   "EV_over_Var": [
+    0.997,
+    1.009,
+    1.011,
+    1.021
+   ]
+  }
+ },
+ "GHSL_D2": {
+  "R": 1000,
+  "secs": 92,
+  "naive": {
+   "theta_medbias": 0.041436592007613626,
+   "theta_meanbias": 0.06566105808400224,
+   "theta_mad": 0.16446915305482435,
+   "theta_sd": 0.23802760136898973,
+   "size_chi2": 0.103,
+   "size_hotelling": 0.098,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.983,
+    0.999,
+    0.979,
+    0.953
+   ],
+   "EV_over_Var": [
+    0.692,
+    0.692,
+    0.694,
+    0.693
+   ]
+  },
+  "ht_unit": {
+   "theta_medbias": 0.0056775630625338636,
+   "theta_meanbias": -0.0015659341080820344,
+   "theta_mad": 0.19165505368835767,
+   "theta_sd": 0.28479448605459806,
+   "size_chi2": 0.044,
+   "size_hotelling": 0.042,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.019,
+    0.012,
+    0.011,
+    0.011
+   ],
+   "EV_over_Var": [
+    0.834,
+    0.821,
+    0.811,
+    0.805
+   ]
+  },
+  "ht_design": {
+   "theta_medbias": 0.0056775630625338636,
+   "theta_meanbias": -0.0015659341080820344,
+   "theta_mad": 0.19165505368835767,
+   "theta_sd": 0.28479448605459806,
+   "size_chi2": 0.061,
+   "size_hotelling": 0.042,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.019,
+    0.012,
+    0.011,
+    0.011
+   ],
+   "EV_over_Var": [
+    0.994,
+    0.989,
+    0.988,
+    0.985
+   ]
+  },
+  "ht_ultimate": {
+   "theta_medbias": 0.0056775630625338636,
+   "theta_meanbias": -0.0015659341080820344,
+   "theta_mad": 0.19165505368835767,
+   "theta_sd": 0.28479448605459806,
+   "size_chi2": 0.035,
+   "size_hotelling": 0.025,
+   "bounded": 1.0,
+   "zeta_meanbias_rel": [
+    0.019,
+    0.012,
+    0.011,
+    0.011
+   ],
+   "EV_over_Var": [
+    1.496,
+    1.498,
+    1.509,
+    1.51
+   ]
+  }
+ },
+ "GHSL_D3": {
+  "R": 1000,
+  "secs": 57,
+  "ht_unit": {
+   "theta_medbias": -0.004756442523998317,
+   "theta_meanbias": 0.008169176897961261,
+   "theta_mad": 0.26373735975923296,
+   "theta_sd": 0.4450969596974178,
+   "size_chi2": 0.029,
+   "size_hotelling": 0.024,
+   "bounded": 0.983,
+   "zeta_meanbias_rel": [
+    0.01,
+    0.001,
+    0.005,
+    0.004
+   ],
+   "EV_over_Var": [
+    0.966,
+    0.963,
+    0.952,
+    0.948
+   ]
+  },
+  "ht_design": {
+   "theta_medbias": -0.004756442523998317,
+   "theta_meanbias": 0.008169176897961261,
+   "theta_mad": 0.26373735975923296,
+   "theta_sd": 0.4450969596974178,
+   "size_chi2": 0.053,
+   "size_hotelling": 0.029,
+   "bounded": 0.99,
+   "zeta_meanbias_rel": [
+    0.01,
+    0.001,
+    0.005,
+    0.004
+   ],
+   "EV_over_Var": [
+    0.965,
+    0.968,
+    0.96,
+    0.957
+   ]
+  },
+  "ht_ultimate": {
+   "theta_medbias": -0.004756442523998317,
+   "theta_meanbias": 0.008169176897961261,
+   "theta_mad": 0.26373735975923296,
+   "theta_sd": 0.4450969596974178,
+   "size_chi2": 0.035,
+   "size_hotelling": 0.022,
+   "bounded": 0.975,
+   "zeta_meanbias_rel": [
+    0.01,
+    0.001,
+    0.005,
+    0.004
+   ],
+   "EV_over_Var": [
+    1.286,
+    1.295,
+    1.289,
+    1.288
+   ]
+  }
+ }
+}

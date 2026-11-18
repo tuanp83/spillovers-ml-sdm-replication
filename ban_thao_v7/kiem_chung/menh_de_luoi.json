@@ -1,0 +1,60 @@
+{
+ "own_noise_rougher": {
+  "theta_formula": 0.5552,
+  "theta_reg": 0.5552,
+  "gamma0": -0.0006,
+  "gamma1": 0.0985
+ },
+ "own_noise_smoother": {
+  "theta_formula": -0.3162,
+  "theta_reg": -0.3162,
+  "gamma0": 0.014,
+  "gamma1": -0.027
+ },
+ "blur_4x4": {
+  "theta_formula": 1.1658,
+  "theta_reg": 1.1658,
+  "gamma0": -0.0,
+  "gamma1": 0.0277
+ },
+ "blur_conditions": {
+  "C1_share": 1.0,
+  "C2_share": 1.0,
+  "within": 0.0083,
+  "between": 0.0198
+ },
+ "audit_own_noise_smoother": {
+  "30": {
+   "mean": -0.324,
+   "sd": 0.309,
+   "correct_sign": 0.865
+  },
+  "60": {
+   "mean": -0.307,
+   "sd": 0.204,
+   "correct_sign": 0.943
+  },
+  "120": {
+   "mean": -0.323,
+   "sd": 0.147,
+   "correct_sign": 0.985
+  }
+ },
+ "audit_blur_4x4": {
+  "30": {
+   "mean": 1.154,
+   "sd": 0.973,
+   "correct_sign": 0.898
+  },
+  "60": {
+   "mean": 1.227,
+   "sd": 0.685,
+   "correct_sign": 0.968
+  },
+  "120": {
+   "mean": 1.152,
+   "sd": 0.484,
+   "correct_sign": 0.998
+  }
+ }
+}

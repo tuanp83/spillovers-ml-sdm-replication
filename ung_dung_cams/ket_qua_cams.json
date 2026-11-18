@@ -1,0 +1,586 @@
+{
+ "GHSL": {
+  "kappa": 0.9504981693376832,
+  "corr_e_xh": 0.17630179583896932,
+  "moran_x": 0.8008335668356145,
+  "moran_xh": 0.8203188945353014,
+  "moran_e": 0.4994957687116893,
+  "n_distinct": 638,
+  "slx_pseudo_true_beta": 1.0559385311499363,
+  "slx_pseudo_true_theta": -0.026538100324660897
+ },
+ "CAMS": {
+  "kappa": 0.4130299881603202,
+  "corr_e_xh": 0.015380755157841649,
+  "moran_x": 0.8008335668356145,
+  "moran_xh": 0.900376848641814,
+  "moran_e": 0.6330889648893756,
+  "n_distinct": 404,
+  "slx_pseudo_true_beta": 0.24294473022431282,
+  "slx_pseudo_true_theta": 0.8578727190103717
+ },
+ "GHSL_null_nl60": {
+  "nl": 60,
+  "R": 500,
+  "mu2": 1.5295262251273287e-27,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.436,
+  "size_theta": 0.02,
+  "secs": 8,
+  "naive": {
+   "medbias": [
+    0.395,
+    0.058,
+    -0.447
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.922,
+    0.099,
+    0.963
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.456,
+    -0.02,
+    -0.47
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.965,
+    0.083,
+    0.978
+   ]
+  },
+  "slx_naive": {
+   "theta_med": -0.027491492284148267,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0008398904807503937,
+   "theta_rej0": null
+  }
+ },
+ "GHSL_null_nl120": {
+  "nl": 120,
+  "R": 500,
+  "mu2": 3.413382849900752e-27,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.57,
+  "size_theta": 0.02,
+  "secs": 8,
+  "naive": {
+   "medbias": [
+    0.545,
+    0.05,
+    -0.606
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.982,
+    0.089,
+    1.071
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.558,
+    -0.006,
+    -0.573
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.959,
+    0.085,
+    0.978
+   ]
+  },
+  "slx_naive": {
+   "theta_med": -0.027658655350062178,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0016401457464162994,
+   "theta_rej0": null
+  }
+ },
+ "GHSL_null_nl250": {
+  "nl": 250,
+  "R": 500,
+  "mu2": 9.493837608725503e-27,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.822,
+  "size_theta": 0.014,
+  "secs": 8,
+  "naive": {
+   "medbias": [
+    0.474,
+    0.063,
+    -0.486
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.895,
+    0.092,
+    0.957
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.368,
+    -0.001,
+    -0.335
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.939,
+    0.074,
+    0.925
+   ]
+  },
+  "slx_naive": {
+   "theta_med": -0.02692224561790435,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0007384201456034356,
+   "theta_rej0": null
+  }
+ },
+ "GHSL_sdm_nl60": {
+  "nl": 60,
+  "R": 500,
+  "mu2": 27.6584766953605,
+  "bounded_pred": 0.9984079532467295,
+  "bounded_obs": 0.996,
+  "size_theta": 0.046,
+  "secs": 8,
+  "naive": {
+   "medbias": [
+    -0.055,
+    0.089,
+    0.111
+   ],
+   "imp_medbias": [
+    0.075,
+    0.002,
+    0.061
+   ],
+   "mad": [
+    0.144,
+    0.099,
+    0.369
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.033,
+    0.01,
+    -0.078
+   ],
+   "imp_medbias": [
+    0.001,
+    -0.008,
+    -0.003
+   ],
+   "mad": [
+    0.174,
+    0.076,
+    0.393
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 1.4325568596706253,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.4110552568133528,
+   "theta_rej0": null
+  }
+ },
+ "GHSL_sdm_nl120": {
+  "nl": 120,
+  "R": 500,
+  "mu2": 61.72432250930388,
+  "bounded_pred": 0.9999999828162771,
+  "bounded_obs": 1.0,
+  "size_theta": 0.038,
+  "secs": 9,
+  "naive": {
+   "medbias": [
+    -0.062,
+    0.095,
+    0.126
+   ],
+   "imp_medbias": [
+    0.066,
+    -0.004,
+    0.059
+   ],
+   "mad": [
+    0.142,
+    0.102,
+    0.338
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.015,
+    0.021,
+    -0.032
+   ],
+   "imp_medbias": [
+    0.011,
+    -0.025,
+    -0.027
+   ],
+   "mad": [
+    0.153,
+    0.082,
+    0.352
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 1.4235916922623213,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.406762322922076,
+   "theta_rej0": null
+  }
+ },
+ "GHSL_sdm_nl250": {
+  "nl": 250,
+  "R": 500,
+  "mu2": 171.67740045005092,
+  "bounded_pred": 1.0,
+  "bounded_obs": 1.0,
+  "size_theta": 0.036,
+  "secs": 8,
+  "naive": {
+   "medbias": [
+    -0.06,
+    0.083,
+    0.146
+   ],
+   "imp_medbias": [
+    0.068,
+    -0.002,
+    0.064
+   ],
+   "mad": [
+    0.136,
+    0.097,
+    0.345
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.013,
+    0.014,
+    -0.026
+   ],
+   "imp_medbias": [
+    0.009,
+    -0.024,
+    -0.023
+   ],
+   "mad": [
+    0.132,
+    0.073,
+    0.316
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 1.4299971397238216,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.4172766429573593,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_null_nl60": {
+  "nl": 60,
+  "R": 500,
+  "mu2": 1.5106293816200045e-29,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.018,
+  "size_theta": 0.0,
+  "secs": 14,
+  "naive": {
+   "medbias": [
+    0.711,
+    -0.671,
+    -0.008
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.715,
+    0.671,
+    0.43
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.657,
+    -0.702,
+    -0.034
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.857,
+    0.747,
+    0.7
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 0.8600823053642539,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0008398904807503937,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_null_nl120": {
+  "nl": 120,
+  "R": 500,
+  "mu2": 3.3712115157424596e-29,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.038,
+  "size_theta": 0.004,
+  "secs": 13,
+  "naive": {
+   "medbias": [
+    0.678,
+    -0.658,
+    0.015
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.694,
+    0.658,
+    0.411
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.561,
+    -0.531,
+    -0.097
+   ],
+   "imp_medbias": null,
+   "mad": [
+    1.162,
+    0.635,
+    0.868
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 0.8467586273313871,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0016401457464162994,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_null_nl250": {
+  "nl": 250,
+  "R": 500,
+  "mu2": 9.376544056885995e-29,
+  "bounded_pred": 0.05000000000007494,
+  "bounded_obs": 0.132,
+  "size_theta": 0.002,
+  "secs": 10,
+  "naive": {
+   "medbias": [
+    0.734,
+    -0.65,
+    -0.026
+   ],
+   "imp_medbias": null,
+   "mad": [
+    0.736,
+    0.65,
+    0.416
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.257,
+    -0.296,
+    -0.091
+   ],
+   "imp_medbias": null,
+   "mad": [
+    1.044,
+    0.525,
+    0.99
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 0.8408668659213978,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": -0.0007384201456034356,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_sdm_nl60": {
+  "nl": 60,
+  "R": 500,
+  "mu2": 0.1630783572612395,
+  "bounded_pred": 0.06245465296075247,
+  "bounded_obs": 0.016,
+  "size_theta": 0.01,
+  "secs": 12,
+  "naive": {
+   "medbias": [
+    0.421,
+    -0.677,
+    -0.307
+   ],
+   "imp_medbias": [
+    -0.609,
+    1.078,
+    0.413
+   ],
+   "mad": [
+    0.421,
+    0.677,
+    0.403
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.362,
+    -0.642,
+    -0.286
+   ],
+   "imp_medbias": [
+    -0.564,
+    0.677,
+    0.097
+   ],
+   "mad": [
+    0.475,
+    0.687,
+    0.909
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 2.667720138013985,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.4110552568133528,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_sdm_nl120": {
+  "nl": 120,
+  "R": 500,
+  "mu2": 0.3639354845445756,
+  "bounded_pred": 0.07841668136756928,
+  "bounded_obs": 0.036,
+  "size_theta": 0.002,
+  "secs": 9,
+  "naive": {
+   "medbias": [
+    0.408,
+    -0.672,
+    -0.274
+   ],
+   "imp_medbias": [
+    -0.605,
+    1.039,
+    0.401
+   ],
+   "mad": [
+    0.408,
+    0.672,
+    0.375
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.271,
+    -0.469,
+    -0.252
+   ],
+   "imp_medbias": [
+    -0.43,
+    0.518,
+    0.05
+   ],
+   "mad": [
+    0.503,
+    0.601,
+    1.217
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 2.667685166491381,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.406762322922076,
+   "theta_rej0": null
+  }
+ },
+ "CAMS_sdm_nl250": {
+  "nl": 250,
+  "R": 500,
+  "mu2": 1.0122346488099618,
+  "bounded_pred": 0.1338006465700139,
+  "bounded_obs": 0.056,
+  "size_theta": 0.002,
+  "secs": 9,
+  "naive": {
+   "medbias": [
+    0.421,
+    -0.668,
+    -0.295
+   ],
+   "imp_medbias": [
+    -0.6,
+    1.025,
+    0.398
+   ],
+   "mad": [
+    0.421,
+    0.668,
+    0.383
+   ]
+  },
+  "lciv": {
+   "medbias": [
+    0.169,
+    -0.188,
+    -0.156
+   ],
+   "imp_medbias": [
+    -0.266,
+    0.332,
+    0.007
+   ],
+   "mad": [
+    0.528,
+    0.536,
+    1.438
+   ]
+  },
+  "slx_naive": {
+   "theta_med": 2.646932227388829,
+   "theta_rej0": null
+  },
+  "slx_oracle": {
+   "theta_med": 1.4172766429573593,
+   "theta_rej0": null
+  }
+ }
+}

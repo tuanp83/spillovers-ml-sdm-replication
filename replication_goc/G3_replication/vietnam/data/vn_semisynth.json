@@ -1,0 +1,328 @@
+{
+ "kappa": 0.9504981693376834,
+ "n": 638,
+ "null_nl30": {
+  "oracle": {
+   "medbias": [
+    0.416,
+    0.0,
+    -0.408
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "naive": {
+   "medbias": [
+    0.606,
+    0.043,
+    -0.655
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "LCIV": {
+   "medbias": [
+    0.478,
+    -0.014,
+    -0.513
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.957,
+    0.977,
+    0.96
+   ],
+   "rho_bounded": 0.006666666666666667
+  },
+  "CVSAP": {
+   "medbias": [
+    0.483,
+    -0.017,
+    -0.477
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.963,
+    0.973,
+    0.973
+   ],
+   "rho_bounded": 0.006666666666666667
+  },
+  "slx_theta_naive": -0.032495167183322,
+  "slx_theta_oracle": -0.003939022664241342,
+  "moran_rej_naive": 0.23666666666666666,
+  "moran_rej_oracle": 0.05
+ },
+ "null_nl60": {
+  "oracle": {
+   "medbias": [
+    0.426,
+    -0.003,
+    -0.42
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "naive": {
+   "medbias": [
+    0.36,
+    0.049,
+    -0.39
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "LCIV": {
+   "medbias": [
+    0.485,
+    -0.012,
+    -0.432
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.977,
+    0.963,
+    0.983
+   ],
+   "rho_bounded": 0.006666666666666667
+  },
+  "CVSAP": {
+   "medbias": [
+    0.482,
+    -0.009,
+    -0.439
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.977,
+    0.963,
+    0.98
+   ],
+   "rho_bounded": 0.006666666666666667
+  },
+  "slx_theta_naive": -0.021013981780033456,
+  "slx_theta_oracle": 0.00588258291862719,
+  "moran_rej_naive": 0.22666666666666666,
+  "moran_rej_oracle": 0.04
+ },
+ "null_nl120": {
+  "oracle": {
+   "medbias": [
+    0.324,
+    -0.01,
+    -0.314
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "naive": {
+   "medbias": [
+    0.455,
+    0.046,
+    -0.494
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null
+  },
+  "LCIV": {
+   "medbias": [
+    0.406,
+    -0.02,
+    -0.378
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.983,
+    0.943,
+    0.98
+   ],
+   "rho_bounded": 0.013333333333333334
+  },
+  "CVSAP": {
+   "medbias": [
+    0.374,
+    -0.021,
+    -0.381
+   ],
+   "ati_medbias": null,
+   "aii_medbias": null,
+   "wald_cov": [
+    0.98,
+    0.947,
+    0.98
+   ],
+   "rho_bounded": 0.01
+  },
+  "slx_theta_naive": -0.021682664749430515,
+  "slx_theta_oracle": 0.006803793601648105,
+  "moran_rej_naive": 0.23333333333333334,
+  "moran_rej_oracle": 0.05
+ },
+ "sdm_nl30": {
+  "oracle": {
+   "medbias": [
+    0.002,
+    0.019,
+    0.003
+   ],
+   "ati_medbias": 0.009,
+   "aii_medbias": 0.003
+  },
+  "naive": {
+   "medbias": [
+    -0.069,
+    0.07,
+    0.208
+   ],
+   "ati_medbias": 0.074,
+   "aii_medbias": 0.04
+  },
+  "LCIV": {
+   "medbias": [
+    0.053,
+    -0.004,
+    -0.09
+   ],
+   "ati_medbias": 0.013,
+   "aii_medbias": 0.015,
+   "wald_cov": [
+    0.943,
+    0.947,
+    0.953
+   ],
+   "rho_bounded": 0.33
+  },
+  "CVSAP": {
+   "medbias": [
+    0.043,
+    0.002,
+    -0.057
+   ],
+   "ati_medbias": 0.012,
+   "aii_medbias": 0.018,
+   "wald_cov": [
+    0.94,
+    0.943,
+    0.953
+   ],
+   "rho_bounded": 0.30333333333333334
+  },
+  "slx_theta_naive": 1.427427436802917,
+  "slx_theta_oracle": 1.4068749626077957,
+  "moran_rej_naive": 1.0,
+  "moran_rej_oracle": 1.0
+ },
+ "sdm_nl60": {
+  "oracle": {
+   "medbias": [
+    0.022,
+    0.001,
+    -0.03
+   ],
+   "ati_medbias": 0.018,
+   "aii_medbias": 0.027
+  },
+  "naive": {
+   "medbias": [
+    -0.05,
+    0.061,
+    0.142
+   ],
+   "ati_medbias": 0.085,
+   "aii_medbias": 0.035
+  },
+  "LCIV": {
+   "medbias": [
+    0.025,
+    0.003,
+    -0.049
+   ],
+   "ati_medbias": 0.019,
+   "aii_medbias": 0.025,
+   "wald_cov": [
+    0.937,
+    0.967,
+    0.937
+   ],
+   "rho_bounded": 0.4866666666666667
+  },
+  "CVSAP": {
+   "medbias": [
+    0.024,
+    0.006,
+    -0.064
+   ],
+   "ati_medbias": 0.02,
+   "aii_medbias": 0.023,
+   "wald_cov": [
+    0.933,
+    0.97,
+    0.937
+   ],
+   "rho_bounded": 0.48333333333333334
+  },
+  "slx_theta_naive": 1.436056804730282,
+  "slx_theta_oracle": 1.4228884714552346,
+  "moran_rej_naive": 1.0,
+  "moran_rej_oracle": 1.0
+ },
+ "sdm_nl120": {
+  "oracle": {
+   "medbias": [
+    0.002,
+    -0.001,
+    -0.014
+   ],
+   "ati_medbias": 0.013,
+   "aii_medbias": 0.016
+  },
+  "naive": {
+   "medbias": [
+    -0.039,
+    0.053,
+    0.132
+   ],
+   "ati_medbias": 0.078,
+   "aii_medbias": 0.039
+  },
+  "LCIV": {
+   "medbias": [
+    0.034,
+    -0.005,
+    -0.077
+   ],
+   "ati_medbias": -0.007,
+   "aii_medbias": 0.003,
+   "wald_cov": [
+    0.963,
+    0.943,
+    0.97
+   ],
+   "rho_bounded": 0.6733333333333333
+  },
+  "CVSAP": {
+   "medbias": [
+    0.026,
+    -0.004,
+    -0.075
+   ],
+   "ati_medbias": -0.006,
+   "aii_medbias": 0.005,
+   "wald_cov": [
+    0.967,
+    0.947,
+    0.973
+   ],
+   "rho_bounded": 0.6533333333333333
+  },
+  "slx_theta_naive": 1.431748304155243,
+  "slx_theta_oracle": 1.4136775630085252,
+  "moran_rej_naive": 1.0,
+  "moran_rej_oracle": 1.0
+ }
+}
